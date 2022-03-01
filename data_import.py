@@ -57,7 +57,7 @@ def get_gl_file_lists(csv_file):
     
     pass
 
-def read_and_append_csv_files(csv_file):
+def read_exported_cell_stats(csv_file):
     df = pd.read_csv(csv_file)
 #     print(df)
     cell_stat_names = []
